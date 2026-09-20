@@ -1,0 +1,84 @@
+# ---------------------------------------------------------------
+# Site settings for aalam's blog
+# NOTE: restart `jekyll serve` after editing this file.
+# ---------------------------------------------------------------
+title: "aalam's blog"
+title_separator: "|"
+subtitle: "sketches, art and notes"
+description: "A blog of sketches, other art, and short notes about them."
+locale: "en-GB"
+
+# Address of the site. No trailing slash. Keep baseurl empty for a
+# username.github.io repository.
+url: "https://aalamenso.github.io"
+baseurl: ""
+repository: "aalamEnso/aalamEnso.github.io"
+
+# Theme (fetched from GitHub at build time; works on GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "air"   # other light skins: default, dirt, mint, sunrise; dark: dark, contrast, neon, plum, aqua
+
+# Author (shown in the footer and in feeds)
+author:
+  name: "Aalam"
+  bio: "Sketches, art, and notes."
+  links: []   # add later, e.g. - label: "GitHub" / icon: "fab fa-fw fa-github" / url: "https://github.com/aalamEnso"
+
+# Footer links (optional). Add links here if you like.
+footer:
+  links: []
+
+# Reading and posts
+search: false
+words_per_minute: 200
+timezone: Asia/Kolkata
+future: false          # posts dated in the future stay hidden until that date
+paginate: 12           # pieces per page on the home page
+paginate_path: /page:num/
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Plugins that GitHub Pages allows
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Files not to publish
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - new-post.sh
+  - new-post.ps1
+  - vendor
+  - node_modules
+  - .ruby-version
+
+# Defaults for every post and page
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      show_date: true
+      share: false
+      comments: false
+      related: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
