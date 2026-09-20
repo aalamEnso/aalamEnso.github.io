@@ -9,4 +9,4 @@ header:
 
 ![Another placeholder sketch. Delete me.](/assets/images/sample-2.svg)
 
-This is a sample entry. Replace the image, title and these few lines with your own description: what you drew, what you used, and anything you would like to remember about it.
+This is a sample entry. Replace the image, title and these few lines with your own description: what you drew, what you used, and anything you would like to remember about it. Testing 2.
