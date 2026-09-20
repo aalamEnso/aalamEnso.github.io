@@ -1,12 +1,15 @@
 ---
-title: "Sample sketch one"
-date: 2026-09-17
-tags: [sample, ink]
-excerpt: "A placeholder sketch. Delete me."
+title: "Love story of a beetle"
+date: 2026-09-20
+tags: [mixed media]
+excerpt: "Beetle comic strip"
 header:
-  teaser: /assets/images/sample-1.svg
+  teaser: /assets/images/BeetleComic.svg
 ---
 
-![A placeholder sketch. Delete me.](/assets/images/sample-1.svg)
+![Beetle comic strip](/assets/images/BeetleComic.svg)
 
-This is a sample entry. Replace the image, title and these few lines with your own description: what you drew, what you used, and anything you would like to remember about it. Testing changes
+> Mixed media (poster color, color pencils, pen, alcohol markers)
+
+This comic strip tells the story of how a beetle fought for love. When beetles need to find a mate, they usually have to compete with another male beetle. The beetle that wins successfully finds a mate, while the other ceases to exist. This story shows a beetle peacefully enjoying a meal when he senses the presence of a potential mate. He clambers up a tree trunk to find his love, only to see another male beetle already at it. They stare each other down, knowing what is
+about to happen. The comic depicts a dramatic fight scene on a branch, and finally, one beetle takes a dramatic fall to its demise. The last image is of the two beetles falling in love at first sight, a happy ending.
